@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    background-color: #019ECE;
+}
+
+.header{
+    display: flex;
+}
+.N{
+    margin-right: auto;
+    margin-left: 14px;
+}
+.messageSVG{
+    margin-right: 14px;
+}
