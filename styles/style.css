@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #019ECE;
+  background-color: #87ceeb;
 }
 
 /* ===== Scrollbar CSS ===== */
@@ -27,7 +27,7 @@ body {
 }
 
 .header {
-  background-color: #046432;
+  background-color: #9dc183;
   display: flex;
   padding: 4px;
 }
@@ -65,7 +65,7 @@ body {
 }
 
 .listepersonne {
-  background-color: #046432;
+  background-color: #9dc183;
   overflow-x: auto;
   display: flex;
   flex-wrap: nowrap;
@@ -78,16 +78,19 @@ h3 {
 }
 
 .local {
-
+  border: solid 1px black;
   display: flex;
-  background-color: #046432;
+  background-color: #9dc183;
+  text-align: center;
   padding: 2px;
+  color: black;
   border-radius: 15px;
   width: fit-content;
 }
 
 .textlocal {
   margin-right: 14px;
+  
 }
 
 .content {
@@ -96,7 +99,7 @@ h3 {
 }
 
 footer {
-  background-color: #046432;
+  background-color: #9dc183;
   color: #fff;
   padding: 8px;
   position: fixed;
