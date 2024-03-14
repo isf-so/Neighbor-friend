@@ -26,3 +26,4 @@ for (let i = 1; i <= 25; i++) {
     // Ajoutez la personne à la liste des personnes
     listepersonne.appendChild(personne);
 }
+
