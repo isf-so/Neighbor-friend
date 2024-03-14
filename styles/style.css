@@ -5,11 +5,30 @@ body{
 
 .header{
     display: flex;
+    padding: 4px;
 }
 .N{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3em;
     margin-right: auto;
     margin-left: 14px;
 }
 .messageSVG{
+    margin-left: 8px;
     margin-right: 14px;
+}
+.personne{
+    margin-right: 14px;
+    margin-left: 14px;
+}
+.cercle {
+
+    width: 50px; /* Définissez la taille du cercle */
+    height: 50px; /* Définissez la taille du cercle */
+    border-radius: 50%; /* Faites en sorte que les bords soient arrondis pour former un cercle */
+    border: 2px solid black; /* Ajoutez une bordure au cercle */
+    box-sizing: border-box; /* Assurez-vous que la taille spécifiée inclut la bordure */
+}
+.listepersonne{
+    display: flex;
 }
