@@ -27,6 +27,7 @@ body {
 }
 
 .header {
+  
   background-color: #9dc183;
   display: flex;
   padding: 4px;
@@ -203,4 +204,49 @@ footer {
 
 .map-container:hover .map {
   cursor: grab;
+}
+
+
+
+
+
+/* Styles pour la section des événements */
+.content {
+  padding: 20px;
+}
+
+.evenements {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.evenement {
+  background-color: #ffffff5b;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.evenement h3 {
+  color: #333;
+  margin-top: 0;
+}
+
+.evenement p {
+  margin: 5px 0;
+  color: #333333;
+}
+
+/* Styles pour les titres */
+h2, h3 {
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  color: #000000;
+}
+
+h3 {
+  color: #272727;
 }
