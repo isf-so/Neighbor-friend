@@ -188,11 +188,16 @@ footer {
 }
 
 #nouvelEvenement button[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: #45a049ad;
 }
 
-
-
+a{
+  text-decoration: none;
+  color: black;
+}
+.profil{
+  margin-left: 64px;
+}
 
 .map-container {
   position: relative;

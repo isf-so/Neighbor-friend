@@ -19,9 +19,15 @@ for (let i = 1; i <= 25; i++) {
     nom.textContent = 'Perso' + i;
     nomPersonne.appendChild(nom);
 
-    // Ajoutez le carré et le nom à l'élément personne
+    // Créer un lien pour le profil de la personne
+    const lienProfil = document.createElement('a');
+    lienProfil.href = 'pages/profil.html'; // Lien à remplir avec l'URL du profil
+    lienProfil.textContent = 'apercu'; // Texte du lien
+
+    // Ajoutez le carré, le nom et le lien de profil à l'élément personne
     personne.appendChild(cercle);
     personne.appendChild(nomPersonne);
+    personne.appendChild(lienProfil);
 
     // Ajoutez la personne à la liste des personnes
     listepersonne.appendChild(personne);
