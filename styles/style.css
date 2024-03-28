@@ -124,7 +124,9 @@ footer {
   margin-right: 64px;
 }
 
-
+#map{
+  margin-top: 25vh;
+}
 
 .para .dropdown-content {
   display: none;
