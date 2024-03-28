@@ -42,6 +42,30 @@ const evenementHTML = `
         <p>Heure: 18h00</p>
         <p>Lieu: Parc Central</p>
     </li>
+    <li class="evenement">
+    <h3>Concert en plein air</h3>
+    <p>Date: 20 avril 2024</p>
+    <p>Heure: 18h00</p>
+    <p>Lieu: Parc Central</p>
+</li>
+<li class="evenement">
+<h3>Concert en plein air</h3>
+<p>Date: 20 avril 2024</p>
+<p>Heure: 18h00</p>
+<p>Lieu: Parc Central</p>
+</li>
+<li class="evenement">
+<h3>Concert en plein air</h3>
+<p>Date: 20 avril 2024</p>
+<p>Heure: 18h00</p>
+<p>Lieu: Parc Central</p>
+</li>
+<li class="evenement">
+<h3>Concert en plein air</h3>
+<p>Date: 20 avril 2024</p>
+<p>Heure: 18h00</p>
+<p>Lieu: Parc Central</p>
+</li>
 </ul>`;
 
 const creerHTML = `
